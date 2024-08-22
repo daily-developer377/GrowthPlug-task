@@ -1,0 +1,31 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Fonts */
+  --font-main: "Oswald", sans-serif;
+  --font-sub: "Montserrat", sans-serif;
+
+  /* Colors */
+  --color-white: #ffffff;
+  --color-tan: #cba951;
+  --color-lightBlue: #56bce4;
+  --color-darkBlue: #135caa;
+
+  /* Border Radius */
+  --border-radius: 0.8rem;
+}
+
+body {
+  scroll-behavior: smooth;
+  background: var(--color-bgBlack);
+  color: var(--color-white);
+  font-family: var(--font-main);
+  /* padding: var(--padding-top) var(--padding-bottom); */
+}
+
+html {
+  font-size: 15px;
+}
