@@ -99,6 +99,7 @@
   text-align: center;
   font-size: 2.5rem;
   text-transform: uppercase;
+  padding-bottom: 1rem;
 }
 .abtPara {
   color: var(--color-black);
@@ -124,5 +125,104 @@
   width: 80%;
 }
 .partContentRow {
-  gap: .5rem;
+  gap: 0.5rem;
+}
+.specialtiesSection {
+  background: linear-gradient(
+    191deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(212, 238, 248, 1) 80%
+  );
+}
+.specialtiesContainer {
+  border: 1px solid var(--color-darkBlue);
+  background: var(--color-white);
+  color: var(--color-black);
+  position: relative;
+  padding: 4rem 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.cstmSizeIconSpecialties {
+  font-size: 2.5rem;
+  color: var(--color-tan);
+  border: 1px solid;
+  padding: 1rem;
+  border-radius: 50%;
+  background: #faf6ee;
+}
+.iconDivSpecialties {
+  border: 1px solid var(--color-darkBlue);
+  position: absolute;
+  top: -15%;
+  left: 40%;
+  padding: 0.5rem;
+}
+.specialtiesSectionH3 {
+  text-transform: uppercase;
+}
+.specialtiesHeadingspacing {
+  margin-bottom: 3rem;
+}
+.platinumSection {
+  background: url(../images/bg-section/bg-webp.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.platinumSectionRow {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.platinumSectionBoldH4 {
+  font-weight: bold;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.platinumSectionLightH4 {
+  font-weight: lighter;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.platinumSectionBoldH2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+.platinumSectionBoldH2 span {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  /* letter-spacing: 0.3rem; */
+}
+.plat-btn {
+  padding: 0.4rem 2.5rem;
+  border: 1px solid var(--color-white) !important;
+}
+.meetDocSecDiv {
+  background: url(../images/meet-doc/OIUGDM0.webp);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+.docImg {
+  background-size: cover;
+  object-fit: cover;
 }

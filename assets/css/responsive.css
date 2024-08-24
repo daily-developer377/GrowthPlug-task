@@ -13,4 +13,20 @@
   .abt-row {
     gap: 2.5rem;
   }
+  .partnerBtnDiv {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+  }
+  .specialtiesColDiv {
+    margin-bottom: 5rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .specialtiesContainer {
+    min-height: 25rem;
+  }
+  .specialtiesColDiv {
+    margin-top: 3rem;
+  }
 }
