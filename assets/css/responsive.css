@@ -21,6 +21,9 @@
   .specialtiesColDiv {
     margin-bottom: 5rem;
   }
+  .numberDiv {
+    left: -3%;
+  }
 }
 @media only screen and (min-width: 768px) {
   .specialtiesContainer {
