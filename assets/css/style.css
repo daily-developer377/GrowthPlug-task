@@ -254,3 +254,64 @@
   font-weight: bold;
   /* padding: 1.5rem; */
 }
+.reviewSection {
+  background: url("../images/review/review-web.webp");
+  height: 75vh;
+  background-size: cover;
+  text-align: center;
+  color: var(--color-darkBlue);
+  /* background-position: center; */
+}
+.reviewContainer {
+  background: var(--color-white);
+  text-align: center;
+
+  /*  */
+  margin-top: 3rem;
+  position: relative;
+}
+.reviewContainer img {
+  width: 5rem;
+}
+/* .nameDiv {
+  position: absolute;
+  top: -15%;
+  top: 0;
+  left: 42%;
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 50%;
+  background-color: var(--color-darkBlue);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.nameDiv {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 50%;
+  background-color: var(--color-darkBlue);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nameDiv p {
+  color: var(--color-white);
+  text-align: center;
+  padding-top: 1rem;
+  font-weight: bold;
+  /* padding: 1.5rem; */
+}
+.swiper {
+  width: 100%;
+  height: auto;
+}
+.swiper-slide {
+  overflow: visible;
+}
