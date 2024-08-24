@@ -256,7 +256,6 @@
 }
 .reviewSection {
   background: url("../images/review/review-web.webp");
-  height: 75vh;
   background-size: cover;
   text-align: center;
   color: var(--color-darkBlue);
@@ -308,13 +307,13 @@
   font-weight: bold;
   /* padding: 1.5rem; */
 }
-.swiper {
+/* .swiper {
   width: 100%;
   height: auto;
-}
-.swiper-slide {
+} */
+/* .swiper-slide {
   overflow: visible;
-}
+} */
 .visitOffice h1 {
   color: var(--color-darkBlue);
   font-weight: 600;
@@ -336,4 +335,17 @@
 .contactP a {
   color: var(--color-lightBlue);
   text-decoration: none;
+}
+.footer {
+  background: var(--color-darkBlue);
+}
+.btn-footer {
+  width: 18rem;
+}
+.footerLogo {
+  width: 13rem;
+  border-radius: 1rem;
+}
+.swiper-roww {
+  width: 90%;
 }
