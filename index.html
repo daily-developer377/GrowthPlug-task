@@ -20,6 +20,9 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <!-- end swiper -->
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- end aos animation -->
   </head>
   <body>
     <!-- navbar -->
@@ -96,7 +99,7 @@
 
     <!-- abt section -->
 
-    <section class="abtSection">
+    <section class="abtSection" data-aos="fade-up" data-aos-duration="3000">
       <div class="container">
         <div class="row abt-row">
           <div class="col-12 col-md-12 col-lg-6">
@@ -162,7 +165,10 @@
         <h1 class="abtHeading specialtiesHeadingspacing">our specialties</h1>
         <div class="row justify-content-center align-items-center">
           <!-- card -->
-          <div class="col-12 col-md-6 col-lg-4 specialtiesColDiv">
+          <div
+            class="col-12 col-md-6 col-lg-4 specialtiesColDiv"
+            data-aos="zoom-in"
+          >
             <div class="specialtiesContainer">
               <div class="iconDivSpecialties">
                 <span>
@@ -180,7 +186,10 @@
           </div>
           <!-- end card -->
           <!-- card -->
-          <div class="col-12 col-md-6 col-lg-4 specialtiesColDiv">
+          <div
+            class="col-12 col-md-6 col-lg-4 specialtiesColDiv"
+            data-aos="zoom-in"
+          >
             <div class="specialtiesContainer">
               <div class="iconDivSpecialties">
                 <span>
@@ -200,7 +209,10 @@
           </div>
           <!-- end card -->
           <!-- card -->
-          <div class="col-12 col-md-6 col-lg-4 specialtiesColDiv">
+          <div
+            class="col-12 col-md-6 col-lg-4 specialtiesColDiv"
+            data-aos="zoom-in"
+          >
             <div class="specialtiesContainer">
               <div class="iconDivSpecialties">
                 <span>
@@ -290,7 +302,7 @@
         <h1 class="abtHeading specialtiesHeadingspacing">what sets us apart</h1>
         <div class="row">
           <!-- card -->
-          <div class="col-12 col-lg-4 mb-5">
+          <div class="col-12 col-lg-4 mb-5" data-aos="fade-down">
             <div
               class="setContainerDiv d-flex flex-row justify-content-center align-items-center p-4 position-relative"
             >
@@ -311,7 +323,7 @@
           </div>
           <!-- end card -->
           <!-- card -->
-          <div class="col-12 col-lg-4 mb-5">
+          <div class="col-12 col-lg-4 mb-5" data-aos="fade-down">
             <div
               class="setContainerDiv d-flex flex-row justify-content-center align-items-center p-4 position-relative"
             >
@@ -332,7 +344,7 @@
           </div>
           <!-- end card -->
           <!-- card -->
-          <div class="col-12 col-lg-4 mb-5">
+          <div class="col-12 col-lg-4 mb-5" data-aos="fade-down">
             <div
               class="setContainerDiv d-flex flex-row justify-content-center align-items-center p-4 position-relative"
             >
@@ -353,7 +365,7 @@
           </div>
           <!-- end card -->
           <!-- card -->
-          <div class="col-12 col-lg-4 mb-5">
+          <div class="col-12 col-lg-4 mb-5" data-aos="fade-down">
             <div
               class="setContainerDiv d-flex flex-row justify-content-center align-items-center p-4 position-relative"
             >
@@ -374,7 +386,7 @@
           </div>
           <!-- end card -->
           <!-- card -->
-          <div class="col-12 col-lg-4 mb-5">
+          <div class="col-12 col-lg-4 mb-5" data-aos="fade-down">
             <div
               class="setContainerDiv d-flex flex-row justify-content-center align-items-center p-4 position-relative"
             >
@@ -395,7 +407,7 @@
           </div>
           <!-- end card -->
           <!-- card -->
-          <div class="col-12 col-lg-4 mb-5">
+          <div class="col-12 col-lg-4 mb-5" data-aos="fade-down">
             <div
               class="setContainerDiv d-flex flex-row justify-content-center align-items-center p-4 position-relative"
             >
@@ -674,6 +686,12 @@
   <!-- swiper -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="swiper.js"></script>
-
   <!-- end swiper -->
+
+  <!-- aos animation -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- end aos animation -->
 </html>
