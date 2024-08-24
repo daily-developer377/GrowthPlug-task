@@ -315,3 +315,25 @@
 .swiper-slide {
   overflow: visible;
 }
+.visitOffice h1 {
+  color: var(--color-darkBlue);
+  font-weight: 600;
+  text-align: left;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.visitOffice h4 {
+  color: var(--color-darkBlue);
+}
+
+.visitOffice p {
+  color: var(--color-black);
+}
+.contactP {
+  color: var(--color-black);
+}
+.contactP a {
+  color: var(--color-lightBlue);
+  text-decoration: none;
+}

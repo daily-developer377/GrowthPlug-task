@@ -32,4 +32,12 @@
   .specialtiesColDiv {
     margin-top: 3rem;
   }
+  .officeTimeDiv {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .officeTimeDiv {
+    width: 100%;
+  }
 }
