@@ -10,4 +10,7 @@
     flex-direction: column;
     gap: 1rem;
   }
+  .abt-row {
+    gap: 2.5rem;
+  }
 }

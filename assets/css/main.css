@@ -13,6 +13,7 @@
   --color-tan: #cba951;
   --color-lightBlue: #56bce4;
   --color-darkBlue: #135caa;
+  --color-black: #000000;
 
   /* Border Radius */
   --border-radius: 0.8rem;
@@ -20,7 +21,6 @@
 
 body {
   scroll-behavior: smooth;
-  background: var(--color-bgBlack);
   color: var(--color-white);
   font-family: var(--font-main);
   /* padding: var(--padding-top) var(--padding-bottom); */
